@@ -1,0 +1,4 @@
+interface:
+  display_name: "ReverseLab"
+  short_description: "Prompt workflow for open-reverselab tasks"
+  default_prompt: "Use $reverse-lab to create a ReverseLab task and run a safe first-pass analysis."
