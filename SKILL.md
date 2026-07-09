@@ -9,7 +9,13 @@ description: Reverse engineering workflow wrapper for the local open-reverselab 
 
 Use this skill to turn a natural-language request into a disciplined ReverseLab workflow. Default to safe, static-first analysis, create or reuse a task case, route signals through the knowledge base, and keep all evidence under the open-reverselab workspace.
 
-Resolve the ReverseLab workspace by searching the current workspace, its parents, and common user workspace folders for an `open-reverselab` directory containing `.mcp.json`, `scripts/`, `boards/`, and `kb/`. Do not publish private local absolute paths in reports, commits, or uploaded files.
+Default workspace on this machine:
+
+```text
+C:\Users\27011\Desktop\Good\open-reverselab
+```
+
+Resolve the ReverseLab workspace from that path first. If it is unavailable, search the current workspace, its parents, and common user workspace folders for an `open-reverselab` directory containing `.mcp.json`, `scripts/`, `boards/`, and `kb/`.
 
 ## Safety Defaults
 
